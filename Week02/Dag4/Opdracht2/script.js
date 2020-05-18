@@ -29,8 +29,6 @@ const removeAllAnimal = () => {
 };
 
 
-
-
 //event listeners
 Buttons.forEach((animalButton) => {
     animalButton.addEventListener("click", animalSpotted);
