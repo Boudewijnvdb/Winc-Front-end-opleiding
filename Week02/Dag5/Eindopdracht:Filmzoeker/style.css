@@ -15,6 +15,7 @@ nav{
     font-weight: bold;
     font-size: 17x;
     
+<<<<<<< HEAD
 }
 
 ul {
@@ -23,3 +24,6 @@ ul {
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
+=======
+}
+>>>>>>> 9c7a2d2bfaed969733d97753ff2fce93d062ba79
