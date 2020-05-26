@@ -1,0 +1,73 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+.overheen:hover{
+    color: lightblue;
+    font-weight: bold;
+}
+
+.actief:active{
+    color:red;
+    font-style: italic;
+}
+
+
+.bezocht:visited{
+color:yellow;
+
+}
+
+
+#tek:focus{
+font-size: 20px;
+color:lightgreen;
+}
+
+
+.container{
+    display: flex;
+    
+}
+
+.container li {
+    margin-right: 400px;
+    vertical-align: center;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+
+li{
+    margin-top: 65px;
+    margin-left: 15px;
+}
+nav{
+    background-color: darkblue;
+    height: 150px;
+
+}
+
+a{
+    color:white;
+}
+
+
+.currentpage{
+    background-color: grey;
+}
+
+
+a:hover{
+
+    background-color: lightblue;
+}
+
+
+li input:focus{
+    border: aqua;
+}
