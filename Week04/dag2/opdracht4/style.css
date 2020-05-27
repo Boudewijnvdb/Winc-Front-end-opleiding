@@ -1,0 +1,59 @@
+.pink{
+position: absolute;
+width: 450px;
+height: 450px;
+background-color: pink;
+border-radius: 50%;
+left:0px;
+bottom: 400px;
+transition: left 1.5s ease-in;
+
+
+
+}
+
+.animation:active  .pink:active{
+   left:650px
+  
+}
+    
+
+
+
+
+
+.blue{
+position: absolute;
+width: 200px;
+height: 200px;
+background-color: royalblue;
+border-radius: 50%;
+bottom:400px;
+right:400px;
+transition: right 1.5s 1.5s ;
+
+
+}
+
+.animation:active  .blue{
+    right:100px;
+}
+  
+
+   
+.red{
+position: absolute;
+width: 200px;
+height: 200px;
+background-color: red;
+left:0px;
+bottom: 100px;
+transition: width 2000ms ease-in;
+}
+
+
+
+.red:hover{
+    
+    width: 800px;
+}

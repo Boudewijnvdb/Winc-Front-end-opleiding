@@ -1,0 +1,15 @@
+.batman{
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(925px, 350px) scale(8) rotate(90deg);
+     
+  }
+  
+  .joker{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+   
+  }

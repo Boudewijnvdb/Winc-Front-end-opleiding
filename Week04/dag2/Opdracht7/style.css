@@ -1,0 +1,69 @@
+
+.item1 { grid-area: foto1; }
+.item2 { grid-area: foto2; }
+.item3 { grid-area: foto3; }
+.item4 { grid-area: foto4; }
+.item5 { grid-area: foto5; }
+.item5 { grid-area: foto6; }
+
+.item{
+  background-color: grey;
+}
+
+
+
+.grid-container{
+    width: fit-content;
+    margin: auto;
+    display: grid;
+    grid-gap:10px;
+    grid-template-areas:
+  'foto1 foto2 foto3'
+  'foto4 foto5 foto6'
+  ;
+}
+
+
+
+
+@media only screen and (max-width: 700px) {
+    .grid-container{
+        width: fit-content;
+        margin: auto;
+        display: grid;
+        grid-gap:10px;
+        grid-template-areas:
+        'foto1 foto2'
+        'foto3 foto4'
+        'foto5 foto6'
+      ;
+    }
+  }
+
+
+  @media only screen and (max-width: 500px) {
+    .grid-container{
+        width: fit-content;
+        margin: auto;
+        display: grid;
+        grid-gap:10px;
+        grid-template-areas:
+        'foto1'
+        'foto2'
+        'foto3'
+        'foto4'
+        'foto5'
+        'foto6';
+    }
+  }
+
+
+
+img{
+    border-radius: 10%;
+}
+
+
+
+
+

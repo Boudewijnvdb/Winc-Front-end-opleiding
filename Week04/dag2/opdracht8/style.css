@@ -1,0 +1,62 @@
+
+ul{
+    list-style: none;
+    
+}
+
+.social-media-container{
+
+    position: absolute;
+    bottom:100px;
+    right:0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.social-media-blog{
+background-color: #e17b77;
+height: 100px;
+width: 100px;
+transition: transform .3s ease-in-out;
+
+}
+
+.social-media-blog:hover{
+    background-color: #e17b77;
+    height: 100px;
+    width: 400px;
+    transform: translateX(200px);
+    
+    }
+
+
+.social-media-twitter{
+    background-color: #00aced;
+    height: 100px;
+    width: 100px;
+    }
+
+.social-media-linkedin{
+    background-color: #007bb6;
+    height: 100px;
+    width: 100px;
+    }
+
+      
+.social-media-facebook{
+    background-color:#3b5998;
+    height: 100px;
+    width: 100px;
+    }
+
+
+ .social-media-github{
+ background-color:  #333;
+height: 100px;
+width: 100px;
+ }
+
+
+ 
