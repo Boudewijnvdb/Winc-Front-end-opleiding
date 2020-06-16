@@ -1,11 +1,11 @@
-import React from 'react'
-import SongOverview from './SongOverview.js'
+import React from 'react';
+import './App.css';
+import Container from './Container.js'
 
 function App() {
   return (
     <div>
-      <h1>hallo</h1>
-      <SongOverview />
+      <Container />
     </div>
   );
 }
